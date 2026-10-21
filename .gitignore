@@ -2,3 +2,15 @@
 .env.local
 __pycache__/
 *.pyc
+
+# Базы данных ботов (не публиковать)
+*.db
+*.db-journal
+*.sqlite3
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# Логи
+*.log
